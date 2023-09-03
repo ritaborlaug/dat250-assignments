@@ -7,9 +7,9 @@ When I sat up the gradle build system, the project was automatically opened in I
 
 After getting rid of the errors, I added some tests for the App-class and pushed it to GitHub. 
 
-I have no prior experience with containerization, but I followed the example provided for the Dockerfile, which worked well. I created an account on DockerHub and made a new repository that I pushed the image to.
+I have no prior experience with containerization, but I followed the example provided for the Dockerfile, which worked well. I created an account on DockerHub and made a new repository that I pushed the image to. 
 The URL of the image is https://hub.docker.com/layers/ritaborlaug/dat250/latest/images/sha256-88f23bf6c840764871a11183baef9594e1491078e569cd3a4357838075a2a4d4?context=repo
 https://hub.docker.com/repository/docker/ritaborlaug/dat250/general 
 
 
-To check that the software velopment environment is working, I have tried to run the application several times, write tests for the App-class and check that I have used the right versions for the dependencies.
+To check that the software velopment environment is working, I have tried to run the application several times, write tests for the App-class and check that I have used the right versions for the dependencies. 
