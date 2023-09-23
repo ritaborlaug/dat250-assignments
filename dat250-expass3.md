@@ -1,0 +1,10 @@
+Before installing MongoDB, we were to validate the packgage. I had heard from several other students that they had encountered some trouble when they tried to use the PGP signature, but that everything worked fine when they used SHA-256 checksum. 
+I therefore decided to just use SHA-256 to avoid any trouble, which worked well.
+I have added a screenshot of the validation in the folder "mongodb_operations_screenshots_ex3".
+
+Then I moved on to the MongoDB installation. As a prerequisite, we had to install Xcode command-line tools from Apple's Xcode. I had already installed this, but when I tried to install MongoDB using homebrew, I got an error message stating that my current version of Xcode was outdated. I had some trouble trying to update Xcode and had to update the entire macOS to make the new XCode version compatible. This took some time, but once I did this I had no further issues with the installation. 
+
+I followed the instructions for Experiment 1 and 2, and used Mongosh to carry out the different operations. 
+Screenshots from the experiments are also located in the folder "mongodb_operations_screenshots_ex3".
+
+In Experiment 2: Aggregation, we were to come up with an additional operation. I made a Map-reduce operation that based on each item gives a list of the customers that have ordered this item. I think this is useful, because it makes sense to be able to find out which customers have ordered the different items available. When I uploaded the screenshot if this operation, I saw that some of the customer lists contained the same customers several times because they had ordered the same item in different orders. If I were to improve this operation, I would try to avoid duplicate customers in the same list. A screenshot of this operation is also added to the same folder as the other screenshots.
